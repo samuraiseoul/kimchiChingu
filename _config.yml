@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This can be useful for beginners to get an idea of what grammar is out there, to more advanced students that
   can treat it as a hyperlinked reference book. This guide is also made with an eye towards helping students who have studied
   japanese in the past and to help them easily make connections between similar grammar rules.
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "http://local.koreanbook.com/"
 twitter_username: jekyllrb
 github_username:  samuraiseoul
 

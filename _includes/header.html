@@ -1,3 +1,17 @@
-<header>
-	<span>I am a Header</span>
+<header class="top-bar">
+	<div class="top-bar-left">
+		<h3>
+			<a href="{{site.baseurl}}">{{site.title}}</a>
+		</h3>
+	</div>
+	<div class="top-bar-right">
+		<nav>
+			<ul class="menu">
+				{% for page in site.pages %} {% if page.title %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
