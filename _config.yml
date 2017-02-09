@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Korean Text Book
+email: scottlavigne28@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a home made korean grammar textbook for learners of Korean of any level.
+  This can be useful for beginners to get an idea of what grammar is out there, to more advanced students that
+  can treat it as a hyperlinked reference book. This guide is also made with an eye towards helping students who have studied
+  japanese in the past and to help them easily make connections between similar grammar rules.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  samuraiseoul
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages', '_assets']
+markdown: kramdown
