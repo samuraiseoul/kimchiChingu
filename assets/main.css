@@ -2,28 +2,28 @@ main.row{
 	max-width: 90%;
 }
 .mainColor{
-	color: #C60C31;
+	color: #C60C31 !important;
 }
 .secondaryColor{
-	color: #9B097B;
+	color: #9B097B !important;
 }
 .alertColor{
-	color: #D5550D;
+	color: #D5550D !important;
 }
 .successColor{
-	color: #43B80B;
+	color: #43B80B !important;
 }
 .mainBackgroundColor{
-	background-color: #C60C31;
+	background-color: #C60C31 !important;
 }
 .secondaryBackgroundColor{
-	background-color: #9B097B;
+	background-color: #9B097B !important;
 }
 .alertBackgroundColor{
-	background-color: #D5550D;
+	background-color: #D5550D !important;
 }
 .successBackgroundColor{
-	background-color: #43B80B;
+	background-color: #43B80B !important;
 }
 header a{
 	color: black;

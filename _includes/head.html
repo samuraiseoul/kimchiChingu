@@ -2,17 +2,17 @@
 	<meta charset="utf-8">
 
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	
-	<script src="{{ "assets/jquery.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "assets/what-input.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "assets/foundation.min.js" | prepend: site.baseurl }}"></script>
+
+	<script src="{{ "/assets/jquery.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/what-input.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/foundation.min.js" | prepend: site.baseurl }}"></script>
 
 	<script>
 		$(document).ready(function(){
 			$(document).foundation();
-		});	
+		});
 	</script>
 
-	<link rel="stylesheet" href="{{ "assets/foundation.min.css" | prepend: site.baseurl }}">
-	<link rel="stylesheet" href="{{ "assets/main.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/assets/foundation.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
 </head>
