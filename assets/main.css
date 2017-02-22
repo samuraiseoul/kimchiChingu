@@ -1,6 +1,9 @@
 main.row{
 	max-width: 90%;
 }
+.maxRow{
+	max-width: 100%;
+}
 .mainColor{
 	color: #C60C31 !important;
 }
@@ -25,6 +28,10 @@ main.row{
 .successBackgroundColor{
 	background-color: #43B80B !important;
 }
-header a{
+header a, footer a{
 	color: black;
+}
+footer{
+	width:100%;
+	border-top: solid 3px
 }

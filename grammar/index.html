@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="callout">
+	{% for category in site.categories %}
+		<h2>{{category[0] | replace: '|',' '}}</h2>
+		{% for posts in category %}
+				{% for post in posts %}
+						<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+	      {% endfor %}
+		{% endfor %}
+	{% endfor %}
+</div>

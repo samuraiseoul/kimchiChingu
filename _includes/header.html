@@ -7,10 +7,9 @@
 	<div class="top-bar-right">
 		<nav>
 			<ul class="menu mainBackgroundColor">
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+				<li><a href="{{ "/contribute" | prepend: site.baseurl }}">Contribute</a></li>
+				<li><a href="{{ "/japanese" | prepend: site.baseurl }}">Japanese</a></li>
+				<li><a href="{{ "/grammar" | prepend: site.baseurl }}">Grammar Guide</a></li>
 			</ul>
 		</nav>
 	</div>
