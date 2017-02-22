@@ -1,4 +1,4 @@
-<header class="top-bar">
+<header class="top-bar mainBackgroundColor">
 	<div class="top-bar-left">
 		<h3>
 			<a href="{{site.baseurl}}">{{site.title}}</a>
@@ -6,7 +6,7 @@
 	</div>
 	<div class="top-bar-right">
 		<nav>
-			<ul class="menu">
+			<ul class="menu mainBackgroundColor">
 				{% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}

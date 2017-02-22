@@ -1,3 +1,30 @@
 main.row{
 	max-width: 90%;
 }
+.mainColor{
+	color: #C60C31;
+}
+.secondaryColor{
+	color: #9B097B;
+}
+.alertColor{
+	color: #D5550D;
+}
+.successColor{
+	color: #43B80B;
+}
+.mainBackgroundColor{
+	background-color: #C60C31;
+}
+.secondaryBackgroundColor{
+	background-color: #9B097B;
+}
+.alertBackgroundColor{
+	background-color: #D5550D;
+}
+.successBackgroundColor{
+	background-color: #43B80B;
+}
+header a{
+	color: black;
+}
