@@ -8,7 +8,7 @@ layout: default
 		{% for posts in category %}
 			{% assign sorted_posts = (posts | reverse) %}
 			{% for post in sorted_posts %}
-					<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+					<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.listingNo }}. {{post.title}}</a></h3>
       {% endfor %}
 		{% endfor %}
 	{% endfor %}
