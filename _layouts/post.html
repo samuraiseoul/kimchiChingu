@@ -13,7 +13,9 @@ layout: default
   <script src="{{ "/assets/quizly.js" | prepend: site.baseurl }}"></script>
   <script>
     $(document).ready(function(){
+      {% if page.quiz %}
       new Quizly($('#quiz')[0], {{page.quiz}});
+      {% endif %}
     });
   </script>
 </div>
