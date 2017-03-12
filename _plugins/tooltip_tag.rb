@@ -10,7 +10,9 @@ module Jekyll
     end
 
     def render(context)
-      "<span data-tooltip class='has-tip top' title='#{@attributes['tip']}'>#{@attributes['text']}</span>"
+      "<span data-tooltip class='has-tip top japanify' title='#{@attributes['tip']}'>#{@attributes['text']}</span>
+       <span class='no-japanify'>#{@attributes['text']}</span>
+      "
     end
   end
 end
