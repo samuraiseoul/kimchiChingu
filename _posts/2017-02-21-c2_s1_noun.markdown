@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "02. Grammar Basics - Nouns"
+listingNo: 02
+title:  "Grammar Basics - Nouns"
 date:   2017-02-02 19:08:44 -0600
 categories: 2.|Parts|of|speech
 ---
