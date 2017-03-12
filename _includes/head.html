@@ -6,9 +6,26 @@
 	<script src="{{ "/assets/jquery.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/what-input.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/foundation.min.js" | prepend: site.baseurl }}"></script>
-
+	<script src="{{ "/assets/quizlyQuestion.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/template.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/quizly.js" | prepend: site.baseurl }}"></script>
 	<script>
 		$(document).ready(function(){
+			{% if page.quiz %}
+				new Quizly($('#quiz')[0], {{page.quiz}});
+			{% endif %}
+
+			var japanCookie = document.cookie;
+			if(japanCookie.length){
+				var toggle = japanCookie.replace('japanify=', '') == 'true';
+				$('#japanify').prop('checked', toggle ? 'checked' : '');
+			}
+			$('#japanify').change(function(){
+				document.cookie = "japanify=" + $(this).prop('checked') + "; expires=Mon, 31 Dec 2035 12:00:00 UTC";
+				var japanify = $('#japanify').prop('checked');
+				japanify ? $('.japanify').show() : $('.japanify').hide();
+				japanify ? $('.no-japanify').hide() : $('.no-japanify').show();
+			}).trigger('change');
 			$(document).foundation();
 		});
 	</script>

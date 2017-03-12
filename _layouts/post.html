@@ -3,17 +3,8 @@ layout: default
 ---
 
 <div class="callout">
-  <h2>{{ page.title }}</h2>
+  <h2>{{ page.title }}<span class="japanify"> | {{page.japan-title}}</span></h2>
   {{ content }}
   <div id="quiz">
   </div>
-
-  <script src="{{ "/assets/quizlyQuestion.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/template.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/quizly.js" | prepend: site.baseurl }}"></script>
-  <script>
-    $(document).ready(function(){
-      new Quizly($('#quiz')[0], {{page.quiz}});
-    });
-  </script>
 </div>
