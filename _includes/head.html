@@ -15,13 +15,12 @@
 				new Quizly($('#quiz')[0], {{page.quiz}});
 			{% endif %}
 
-			var japanCookie = document.cookie;
-			if(japanCookie.length){
-				var toggle = japanCookie.replace('japanify=', '') == 'true';
+			if(localStorage.japanify){
+				var toggle = localStorage.japanify == 'true';
 				$('#japanify').prop('checked', toggle ? 'checked' : '');
 			}
 			$('#japanify').change(function(){
-				document.cookie = "japanify=" + $(this).prop('checked') + "; expires=Mon, 31 Dec 2035 12:00:00 UTC";
+				localStorage.japanify = $(this).prop('checked');
 				var japanify = $('#japanify').prop('checked');
 				japanify ? $('.japanify').show() : $('.japanify').hide();
 				japanify ? $('.no-japanify').hide() : $('.no-japanify').show();
