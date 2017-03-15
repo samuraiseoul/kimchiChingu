@@ -33,5 +33,9 @@ header a, footer a{
 }
 footer{
 	width:100%;
-	border-top: solid 3px
+	border-top: solid 3px;
+}
+#disqus_thread{
+	width: 60%;
+	margin: auto;
 }
