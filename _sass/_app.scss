@@ -1,0 +1,39 @@
+@import 'foundation-sites/scss/foundation';
+
+main.row{
+	max-width: 90%;
+}
+.maxRow{
+	max-width: 100%;
+}
+.mainColor{
+	color: #C60C31 !important;
+}
+.secondaryColor{
+	color: #9B097B !important;
+}
+.alertColor{
+	color: #D5550D !important;
+}
+.successColor{
+	color: #43B80B !important;
+}
+.mainBackgroundColor{
+	background-color: #C60C31 !important;
+}
+.secondaryBackgroundColor{
+	background-color: #9B097B !important;
+}
+.alertBackgroundColor{
+	background-color: #D5550D !important;
+}
+.successBackgroundColor{
+	background-color: #43B80B !important;
+}
+header a, footer a{
+	color: black;
+}
+footer{
+	width:100%;
+	border-top: solid 3px
+}
