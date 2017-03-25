@@ -4,7 +4,11 @@ An open source Korean grammar guide and textbook with an eye for those who have 
 
 
 To compile sass:
+
 cd _sass
+
 npm install
+
 bower install
+
 gulp
