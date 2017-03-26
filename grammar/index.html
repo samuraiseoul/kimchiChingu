@@ -1,15 +1,6 @@
 ---
 layout: default
 ---
-{% listing %}
 <div class="callout">
-	{% for category in site.categories %}
-		<h2>{{category[0] | replace: '|',' '}}</h2>
-		{% for posts in category %}
-			{% assign sorted_posts = (posts | reverse) %}
-			{% for post in sorted_posts %}
-					<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.listingNo }}. {{post.title}}</a></h3>
-      {% endfor %}
-		{% endfor %}
-	{% endfor %}
+	{% listing %}
 </div>
