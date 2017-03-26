@@ -7,8 +7,8 @@ To compile sass:
 
 cd _sass
 
-npm install
-
 bower install
 
-gulp
+cd ..
+
+jekyll build
