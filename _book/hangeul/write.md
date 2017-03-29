@@ -1,8 +1,6 @@
 ---
-layout: post
-listingNo: 02
+order: 2
 title:  "Hangeul, how to write"
-date:   2017-01-02 19:08:45 -0600
 categories: 1.|Hangeul
 ---
 

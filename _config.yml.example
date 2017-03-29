@@ -23,9 +23,20 @@ description: >
 baseurl: "http://local.koreanbook.com"
 twitter_username: jekyllrb
 github_username:  samuraiseoul
+permalink: pretty
 
 # Build settings
 sass:
-  sass_dir: _sass
+  sass_dir: ./_sass
 include: ['_pages', '_assets']
 markdown: kramdown
+error_mode: strict
+collections:
+  book:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: book
+    values:
+      layout: post

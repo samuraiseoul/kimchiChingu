@@ -1,8 +1,6 @@
 ---
-layout: post
-listingNo: 01
+order: 1
 title:  "Grammar Basics - Parts of speech"
-date:   2017-02-01 19:08:44 -0600
 categories: 2.|Parts|of|speech
 ---
 
