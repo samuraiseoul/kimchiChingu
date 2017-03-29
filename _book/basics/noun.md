@@ -1,12 +1,6 @@
 ---
-layout: post
-listing:
-    order: 2
-    section: 
-        order: 2
-        title: 'Grammar Basics'
+order: 2
 title:  "Grammar Basics - Nouns"
-date:   2017-02-02 19:08:44 -0600
 categories: 2.|Parts|of|speech
 japan-title: "文法の基本 - 名詞"
 ---
