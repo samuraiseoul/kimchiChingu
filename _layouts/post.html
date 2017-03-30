@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="callout">
-  <h2>{{ page.title }}<span class="japanify"> | {{page.japan-title}}</span></h2>
+  <h2>{{ page.title }}{% if page.japan-title %}<span class="japanify"> | {{page.japan-title}}</span>{% endif %}</h2>
   {{ content }}
   <div id="quiz">
   </div>
