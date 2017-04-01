@@ -7,6 +7,25 @@ layout: default
   {{ content }}
   <div id="quiz">
   </div>
+  <div id="vocab">
+    <h3>Vocabulary used in this section</h3>
+    <table class="hover">
+      <thead>
+        <tr>
+          <th>Korean</td>
+          <th>English</td>
+        </tr>
+      </thead>
+      <tbody>
+      {% for vocabulary in page.vocab %}
+        <tr>
+          <td>{{vocabulary[0]}}</td>
+          <td>{{vocabulary[1]}}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
   <div id="disqus_thread"></div>
   <script>
   /**

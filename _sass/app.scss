@@ -9,6 +9,7 @@
 @include foundation-menu;
 @include foundation-menu-icon;
 @include foundation-callout;
+@include foundation-table;
 
 main.row{
 	max-width: 90%;
@@ -19,4 +20,9 @@ main.row{
 footer{
 	width:100%;
 	border-top: solid 3px
+}
+#vocab{
+	table{
+		width: 50%;
+	}
 }
