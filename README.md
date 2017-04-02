@@ -5,6 +5,7 @@ An open source Korean grammar guide and textbook with an eye for those who have 
 Front Matter Guide:
 
 ```
+---
 order: 1 # The order in the section
 title:  "Page Title" # Page and article title
 categories: category1 category2 # which categories it belongs to
