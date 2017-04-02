@@ -4,6 +4,8 @@ title:  "Grammar Basics - Parts of speech"
 categories: grammar speech
 japan-title: "文法の基本"
 nextLink: 'book/basics/noun/'
+description: >
+  Introduction to the Korean grammar and parts of speech.
 vocab: {
 명사: noun,
 동사: verb,

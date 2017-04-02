@@ -4,6 +4,8 @@ title:  "Grammar Basics - Nouns"
 categories: grammar nouns
 japan-title: "文法の基本 - 名詞"
 prevLink: 'book/basics/speech/'
+description: >
+  Introduction to nouns in Korean.
 vocab: {
 		사랑: Love,
 		인간: Human

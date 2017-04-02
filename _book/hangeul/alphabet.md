@@ -3,6 +3,8 @@ order: 1
 title:  "Hangeul, the Korean alphabet"
 categories: Hangeul Alphabet
 nextLink: 'book/hangeul/write/'
+description: >
+  Introduction to the Korean alphabet, Hangeul and it's characters.
 vocab: {
 		한자: Chinese Characters,
 		글자: Letter/Alphabet,

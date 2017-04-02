@@ -1,6 +1,7 @@
 <head>
 	<meta charset="utf-8">
-
+	<meta name="keywords" content="{% for word in site.keywords %}{{word}}{% if forloop.last == false %},{% endif %}{% endfor %}{% for word in page.categories %},{{word}}{% endfor %}">
+	<meta name="description" content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{%endif%}">
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
 	<script>

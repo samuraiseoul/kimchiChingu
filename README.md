@@ -12,6 +12,10 @@ categories: category1 category2 # which categories it belongs to
 japan-title: "文法の基本" # Title in Japanese if it has one
 prevLink: 'book/section/article/' # link to next page in section (do not include on first article in a section)
 nextLink: 'book/section/article/' # link to next page in section (do not include on last article in a section)
+description: >
+  Put intro here for search engines.
+  You can use
+  multiple lines.
 vocab: { # all korean words that appear in an article and their translations
 명사: noun,
 동사: verb,
@@ -35,9 +39,6 @@ quiz: '[{ # end of article quiz
       }]'
 ---
 ```
-
-
-
 
 To compile sass:
 
