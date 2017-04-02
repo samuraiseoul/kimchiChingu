@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="callout">
-  <h2>{{ page.title }}<span class="japanify"> | {{page.japan-title}}</span></h2>
+  <h2>{{ page.title }}{% if page.japan-title %}<span class="japanify"> | {{page.japan-title}}</span>{% endif %}</h2>
   {{ content }}
   <div id="quiz">
   </div>
   <div id="vocab">
-    <h3>Vocabulary used in this section</h3>
+    <h4>Vocabulary used in this section</h3>
     <table class="hover">
       <thead>
         <tr>
@@ -25,6 +25,18 @@ layout: default
       {% endfor %}
       </tbody>
     </table>
+  </div>
+  <div class="row" id="booknav">
+    <div class="columns small-2">
+      {% if page.prevLink %}
+      <a class="prev" href="{{site.baseurl}}/{{page.prevLink}}">Previous</a>
+      {% endif %}
+    </div>
+    <div class="columns small-offset-8 small-2">
+      {% if page.nextLink %}
+      <a class="next" href="{{site.baseurl}}/{{page.nextLink}}">Next</a>
+      {% endif %}
+    </div>
   </div>
   <div id="disqus_thread"></div>
   <script>

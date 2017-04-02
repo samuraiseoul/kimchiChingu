@@ -1,18 +1,23 @@
 ---
 order: 1
 title:  "Hangeul, the Korean alphabet"
-categories: 1.|Hangeul
+categories: Hangeul Alphabet
+nextLink: 'book/hangeul/write/'
+vocab: {
+		한자: Chinese Characters,
+		글자: Letter/Alphabet,
+		한글: 'Hangeul, the Korean alphabet',
+		한국어: Korean(Language)
+}
 quiz: '[{
         name: "city",
         type: "input",
-        answer: "서울",
+        answer: "King Sejong",
         answers: [],
         value: "",
         values: [],
         placeholder: "",
         multiple: "",
-        question: "What is the capital of Korea, spelled in Korean?",
-        right: "맞아",
-        wrong: "들림"
+        question: "Who invented the Korean alphabet?"
       }]'
 ---
