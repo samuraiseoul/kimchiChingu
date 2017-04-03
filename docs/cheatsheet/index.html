@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="korean,book,textbook,japanese,grammar">
+	<meta name="description" content="This is a home made korean grammar textbook for learners of Korean of any level. This can be useful for beginners to get an idea of what grammar is out there, to more advanced students that can treat it as a hyperlinked reference book. This guide is also made with an eye towards helping students who have studied japanese in the past and to help them easily make connections between similar grammar rules.
+">
+	<title>Japanese</title>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-93709201-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<script src="http://local.koreabook.com/assets/jquery.js"></script>
+	<script src="http://local.koreabook.com/assets/what-input.js"></script>
+	<script src="http://local.koreabook.com/assets/foundation.min.js"></script>
+	<script src="http://local.koreabook.com/assets/quizlyQuestion.js"></script>
+	<script src="http://local.koreabook.com/assets/template.js"></script>
+	<script src="http://local.koreabook.com/assets/quizly.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+
+			if(localStorage.japanify){
+				var toggle = localStorage.japanify == 'true';
+				$('#japanify').prop('checked', toggle ? 'checked' : '');
+			}
+			$('#japanify').change(function(){
+				localStorage.japanify = $(this).prop('checked');
+				var japanify = $('#japanify').prop('checked');
+				japanify ? $('.japanify').show() : $('.japanify').hide();
+				japanify ? $('.no-japanify').hide() : $('.no-japanify').show();
+			}).trigger('change');
+			$(document).foundation();
+		});
+	</script>
+
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+
+
+<body>
+	<header class="top-bar mainBackgroundColor">
+	<div class="top-bar-left">
+		<h3>
+			<a href="http://local.koreabook.com">Korean Text Book</a>
+		</h3>
+	</div>
+	<div class="top-bar-right">
+		<nav>
+			<ul class="menu mainBackgroundColor">
+				<li><a href="http://local.koreabook.com/contribute">Contribute</a></li>
+				<li><a href="http://local.koreabook.com/japanese">Japanese</a></li>
+				<li><a href="http://local.koreabook.com/book">Grammar Guide</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+	<main class="row">
+		<article class="columns small-12">
+			<div class="callout">
+<h2>Japanese</h2>
+
+    <p>Japanese Cheat Sheet</p>
+
+
+</div>
+
+		</article>
+	</main>
+		<footer class="row maxRow mainBackgroundColor">
+<nav class="small-5 columns text-center">
+	<ul class="menu">
+		<li><a href="#">github</a></li>
+		<li><a href="#">linkedIn</a></li>
+		<li><a href="#">blog</a></li>
+	</ul>
+</nav>
+<div class="switch tiny columns small-offset-5 small-2">Japanify
+  <input class="switch-input" id="japanify" type="checkbox" name="japanify" checked>
+  <label class="switch-paddle" for="japanify">
+    <span class="show-for-sr">Japanify</span>
+    <span class="switch-active" aria-hidden="true">On</span>
+    <span class="switch-inactive" aria-hidden="true">Off</span>
+  </label>
+</div>
+</footer>
+
+</body>
+</html>
