@@ -26,7 +26,7 @@
 	<script>
 		$(document).ready(function(){
 			
-				new Quizly($('#quiz')[0], [{ name: "city", type: "input", answer: "King Sejong", answers: [], value: "", values: [], placeholder: "", multiple: "", question: "Who invented the Korean alphabet?" }]);
+				new Quizly($('#quiz')[0], [ { name: "consonants", type: "input", answer: "19", answers: [], value: "", values: [], placeholder: "", multiple: "", question: "How many consonants are there?" }, { name: "vowels", type: "input", answer: "21", answers: [], value: "", values: [], placeholder: "", multiple: "", question: "How many vowels are there?" }, { name: "compound", type: "input", answer: "7", answers: [], value: "", values: [], placeholder: "", multiple: "", question: "How many of the vowels are compound?" } ]);
 			
 
 			if(localStorage.japanify){
@@ -69,12 +69,181 @@
 		<article class="columns small-12">
 			<div class="callout">
   <h2>Hangeul, the Korean alphabet</h2>
-  
+  <p>Korea’s alphabet is known as Hangeul and is a phonetic alphabet composed
+of 30 letters, 19 consonants and 21 vowels. In Korean the consonants and vowels
+are arranged into syllable blocks. In this section we will be going over the sounds
+of the letters.</p>
 
+<h3 id="consonants">Consonants:</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>ㄱ</td>
+      <td>ㄲ</td>
+      <td>ㅋ</td>
+      <td>ㄷ</td>
+      <td>ㄸ</td>
+      <td>ㅌ</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>g</td>
+      <td>gg</td>
+      <td>k</td>
+      <td>d</td>
+      <td>dd</td>
+      <td>t</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ㅂ</td>
+      <td>ㅃ</td>
+      <td>ㅍ</td>
+      <td>ㅈ</td>
+      <td>ㅉ</td>
+      <td>ㅊ</td>
+      <td>ㅅ</td>
+      <td>ㅆ</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>bb</td>
+      <td>p</td>
+      <td>j</td>
+      <td>jj</td>
+      <td>ch</td>
+      <td>s</td>
+      <td>ss</td>
+    </tr>
+    <tr>
+      <td>ㅇ</td>
+      <td>ㄴ</td>
+      <td>ㄹ</td>
+      <td>ㅁ</td>
+      <td>ㅎ</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-/ng</td>
+      <td>n</td>
+      <td>r/l</td>
+      <td>m</td>
+      <td>h</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Many consonants come in threes such as ㄱ. You can see in the table that it has
+two other relatives, ㄲ and ㅋ. This makes similar sounds easy to remember as the
+ difference is just one stroke. There are two special characters up there as well, <br />
+ ㅇ and ㄹ. ㅇ is a silent consonant if it comes at the beginning of a syllable block
+ and an ‘ng’ sound at the end of one. ㄹ is more of an ‘R’ sound at the beginning
+ of a block and more of an ‘L’ at the end.</p>
+
+<h3 id="vowels">Vowels:</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>ㅏ</td>
+      <td>ㅑ</td>
+      <td>ㅓ</td>
+      <td>ㅕ</td>
+      <td>ㅣ</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>ya</td>
+      <td>eo</td>
+      <td>yeo</td>
+      <td>i</td>
+    </tr>
+    <tr>
+      <td>ㅐ</td>
+      <td>ㅒ</td>
+      <td>ㅔ</td>
+      <td>ㅖ</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ae</td>
+      <td>yae</td>
+      <td>e</td>
+      <td>ye</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ㅜ</td>
+      <td>ㅠ</td>
+      <td>ㅗ</td>
+      <td>ㅛ</td>
+      <td>ㅡ</td>
+    </tr>
+    <tr>
+      <td>oo</td>
+      <td>yoo</td>
+      <td>o</td>
+      <td>yo</td>
+      <td>eu</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In addition to these 14 base vowels there are also 7 compound vowels:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>ㅘ</td>
+      <td>ㅚ</td>
+      <td>ㅙ</td>
+    </tr>
+    <tr>
+      <td>wa</td>
+      <td>oe</td>
+      <td>wae</td>
+    </tr>
+    <tr>
+      <td>ㅝ</td>
+      <td>ㅞ</td>
+      <td>ㅟ</td>
+    </tr>
+    <tr>
+      <td>weo</td>
+      <td>we</td>
+      <td>wi</td>
+    </tr>
+    <tr>
+      <td>ㅢ</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>eui</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Two vowels that many people have a hard time pronouncing the difference on are
+ㅐ and ㅔ. The first one, ㅐ, sounds like the letter “A” or the “A” in “Yay!”.
+The second one, ㅔ, is pronounced like “eh” similar to the “ay” in “say” <span class="japanify">or like え in Japanese</span>.</p>
+
+  <h3>End of section quiz:</h3>
   <div id="quiz">
   </div>
   <div id="vocab">
-    <h4>Vocabulary used in this section</h3>
+    
+    <h3>Vocabulary used in this section:</h3>
     <table class="hover">
       <thead>
         <tr>
@@ -83,11 +252,6 @@
         </tr>
       </thead>
       <tbody>
-      
-        <tr>
-          <td>한자</td>
-          <td>Chinese Characters</td>
-        </tr>
       
         <tr>
           <td>글자</td>
@@ -106,6 +270,7 @@
       
       </tbody>
     </table>
+    
   </div>
   <div class="row" id="booknav">
     <div class="columns small-2">

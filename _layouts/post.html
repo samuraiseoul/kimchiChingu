@@ -5,10 +5,12 @@ layout: default
 <div class="callout">
   <h2>{{ page.title }}{% if page.japan-title %}<span class="japanify"> | {{page.japan-title}}</span>{% endif %}</h2>
   {{ content }}
+  <h3>End of section quiz:</h3>
   <div id="quiz">
   </div>
   <div id="vocab">
-    <h4>Vocabulary used in this section</h3>
+    {% if page.vocab %}
+    <h3>Vocabulary used in this section:</h3>
     <table class="hover">
       <thead>
         <tr>
@@ -25,6 +27,7 @@ layout: default
       {% endfor %}
       </tbody>
     </table>
+    {% endif %}
   </div>
   <div class="row" id="booknav">
     <div class="columns small-2">
