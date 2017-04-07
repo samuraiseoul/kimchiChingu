@@ -1,2 +1,5 @@
-- hangeul
-- basics
+# - folder: hangeul
+#   header: Hangeul
+
+- folder: verbs
+  header: "Verb and Adjective Conjugations"

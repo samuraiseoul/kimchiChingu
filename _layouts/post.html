@@ -5,9 +5,11 @@ layout: default
 <div class="callout">
   <h2>{{ page.title }}{% if page.japan-title %}<span class="japanify"> | {{page.japan-title}}</span>{% endif %}</h2>
   {{ content }}
+  {% if page.quiz %}
   <h3>End of section quiz:</h3>
   <div id="quiz">
   </div>
+  {% endif %}
   <div id="vocab">
     {% if page.vocab %}
     <h3>Vocabulary used in this section:</h3>

@@ -6,7 +6,7 @@
     <url>
       <loc>/contribute/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -21,7 +21,7 @@
     <url>
       <loc>/japanese/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +36,7 @@
     <url>
       <loc>/cheatsheet/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,7 +51,7 @@
     <url>
       <loc>/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +66,7 @@
     <url>
       <loc>/css/main.css</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +81,7 @@
     <url>
       <loc>/robots.txt</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +98,7 @@
     <url>
       <loc>/feed.xml</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -113,7 +113,7 @@
     <url>
       <loc>/feed.xslt.xml</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,42 +124,12 @@
     </url>
     
   
-  
-    
-    <url>
-      <loc>/book/basics/noun/</loc>
-      
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/book/basics/speech/</loc>
-      
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
   
     
     <url>
       <loc>/book/hangeul/alphabet/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -174,7 +144,7 @@
     <url>
       <loc>/book/hangeul/write/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -189,7 +159,172 @@
     <url>
       <loc>/book/</loc>
       
-        <lastmod>2017-04-03T19:51:52-05:00</lastmod>
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/basics/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-a-ending/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-b-ending/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-consonant-end/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-eu-ending/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-hada/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-horizontal-verbs/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-i-ending/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate-reu-ending/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/conjugate/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/book/verbs/stem/</loc>
+      
+        <lastmod>2017-04-06T20:45:01-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
