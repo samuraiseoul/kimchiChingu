@@ -24,8 +24,8 @@ quiz: '[{
 ---
 For verbs and adjectives ending in ㅏ conjugating is quite easy because it's the same as the
 stem form! Nothing else is necessary to conjugate it. The only exceptions are
-words ending in 하, [here]({{site.baseurl}}/book/verbs/conjugate-hada/) is an
-explanation to how to conjugate them.
+words ending in 하. Their conjugation rules can be found
+[here]({{site.baseurl}}/book/verbs/conjugate-hada/).
 
 ### Examples:
 

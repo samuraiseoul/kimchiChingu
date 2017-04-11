@@ -22,9 +22,9 @@ quiz: '[{
         question: "How many letters does Hangeul have?"
       }]'
 ---
-To conjugate verb and adjective stems ending in ㅂ you must drop the ㅂ
-and depending on the vowel remaining, add either a 워 or a 와. If it ends in
-an ㅗ sound after dropping the ㅂ add a 와, otherwise, add a 워.
+To conjugate verb and adjective stems ending in ㅂ drop the ㅂ
+and depending on the vowel remaining, add either a 워 or 와. If it ends in
+an ㅗ sound after dropping the ㅂ add 와, otherwise, add 워.
 
 ### Examples:
 

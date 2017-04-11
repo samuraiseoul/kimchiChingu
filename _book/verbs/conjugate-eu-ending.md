@@ -23,8 +23,7 @@ quiz: '[{
       }]'
 ---
 To conjugate verb and adjective stems ending in ㅡ change the vowel into an ㅓ. The exception
-to this is words ending in 르, please see [here]({{site.baseurl}}/book/verbs/conjugate-reu-ending/)
- to learn to conjugate words ending in 르.
+to this is words ending in 르, explained [here]({{site.baseurl}}/book/verbs/conjugate-reu-ending/).
 
 ### Examples:
 

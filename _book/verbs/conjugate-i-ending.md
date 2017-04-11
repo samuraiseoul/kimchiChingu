@@ -22,7 +22,7 @@ quiz: '[{
         question: "How many letters does Hangeul have?"
       }]'
 ---
-To conjugate verb and adjective stems ending in ㅣ just change the ㅣ in the last
+To conjugate verb and adjective stems ending in ㅣ change the ㅣ in the last
  syllable block to a ㅕ.
 
 ### Examples:

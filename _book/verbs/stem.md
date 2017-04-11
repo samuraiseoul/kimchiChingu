@@ -25,7 +25,7 @@ quiz: '[{
 ---
 In Korean, the easiest type of conjugation is the {% tooltip tip: 連用形 text: stem %} conjugation.
 It is the same for all verbs and adjectives, including the copula, 이다. Simply remove the 다
-from the verb or adjective and you're done.
+from the verb or adjective.
 
 ### Examples:
 

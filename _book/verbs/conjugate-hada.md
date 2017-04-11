@@ -5,6 +5,7 @@ categories: verbs conjugation adjectives
 description: >
   How to conjugate verbs and adjectives ending with 하."
 prevLink: "book/verbs/conjugate-reu-ending/"
+nextLink: "book/verbs/conjugate-copula/"
 vocab: {
 		동사: 'verb',
 		동사 변화: 'verb conjugations'
