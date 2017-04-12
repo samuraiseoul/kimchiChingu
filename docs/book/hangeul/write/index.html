@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="korean,book,textbook,japanese,grammar,Hangeul,Alphabet">
+	<meta name="description" content="Introduction to reading and writing Hangeul, the Korean alphabet.
+">
+	<title>How to read and write</title>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-93709201-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<script src="http://www.kimchichingu.com/assets/jquery.js"></script>
+	<script src="http://www.kimchichingu.com/assets/what-input.js"></script>
+	<script src="http://www.kimchichingu.com/assets/foundation.min.js"></script>
+	<script src="http://www.kimchichingu.com/assets/quizlyQuestion.js"></script>
+	<script src="http://www.kimchichingu.com/assets/template.js"></script>
+	<script src="http://www.kimchichingu.com/assets/quizly.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+				new Quizly($('#quiz')[0], [{ name: "city", type: "input", answer: "28", answers: [], value: "", values: [], placeholder: "", multiple: "", question: "How many letters does Hangeul have?" }]);
+			
+
+			if(localStorage.japanify){
+				var toggle = localStorage.japanify == 'true';
+				$('#japanify').prop('checked', toggle ? 'checked' : '');
+			}
+			$('#japanify').change(function(){
+				localStorage.japanify = $(this).prop('checked');
+				var japanify = $('#japanify').prop('checked');
+				japanify ? $('.japanify').show() : $('.japanify').hide();
+				japanify ? $('.no-japanify').hide() : $('.no-japanify').show();
+			}).trigger('change');
+			$(document).foundation();
+		});
+	</script>
+
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+
+
+<body>
+	<header class="top-bar mainBackgroundColor">
+	<div class="top-bar-left">
+		<h3>
+			<a href="http://www.kimchichingu.com">Korean Text Book</a>
+		</h3>
+	</div>
+	<div class="top-bar-right">
+		<nav>
+			<ul class="menu mainBackgroundColor">
+				<li><a href="http://www.kimchichingu.com/contribute">Contribute</a></li>
+				<li><a href="http://www.kimchichingu.com/japanese">Japanese</a></li>
+				<li><a href="http://www.kimchichingu.com/book">Grammar Guide</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+	<main class="row">
+		<article class="columns small-12">
+			<div class="callout">
+  <h2>How to read and write</h2>
+  <p>Korean letters are not stand alone characters like English. In English to write
+the syllable, “Han” we take the letters and write them sequentially one after
+the other. In Korean, you instead write them in syllable blocks.<br />
+<img src="http://www.kimchichingu.com/assets/imgs/blocks.png" alt="Syllable block guide" />
+<img src="http://www.kimchichingu.com/assets/imgs/blocks.png" alt="Syllable block guide" /></p>
+
+  
+  <h3>End of section quiz:</h3>
+  <div id="quiz">
+  </div>
+  
+  <div id="vocab">
+    
+    <h3>Vocabulary used in this section:</h3>
+    <table class="hover">
+      <thead>
+        <tr>
+          <th>Korean</td>
+          <th>English</td>
+        </tr>
+      </thead>
+      <tbody>
+      
+        <tr>
+          <td>쓰다</td>
+          <td>to write</td>
+        </tr>
+      
+        <tr>
+          <td>읽다</td>
+          <td>to read</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </div>
+  <div class="row" id="booknav">
+    <div class="columns small-2">
+      
+      <a class="prev" href="http://www.kimchichingu.com/book/hangeul/alphabet/">Previous</a>
+      
+    </div>
+    <div class="columns small-offset-8 small-2">
+      
+    </div>
+  </div>
+  <div id="disqus_thread"></div>
+  <script>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://kimchichingu.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+		</article>
+	</main>
+		<footer class="row maxRow mainBackgroundColor">
+<nav class="small-5 columns text-center">
+	<ul class="menu">
+		<li><a href="#">github</a></li>
+		<li><a href="#">linkedIn</a></li>
+		<li><a href="#">blog</a></li>
+	</ul>
+</nav>
+<div class="switch tiny columns small-offset-5 small-2">Japanify
+  <input class="switch-input" id="japanify" type="checkbox" name="japanify" checked>
+  <label class="switch-paddle" for="japanify">
+    <span class="show-for-sr">Japanify</span>
+    <span class="switch-active" aria-hidden="true">On</span>
+    <span class="switch-inactive" aria-hidden="true">Off</span>
+  </label>
+</div>
+</footer>
+
+</body>
+</html>

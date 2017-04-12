@@ -25,7 +25,6 @@ twitter_username: jekyllrb
 github_username:  samuraiseoul
 permalink: pretty
 keywords: [korean, book, textbook, japanese, grammar]
-destination: docs
 
 # Build settings
 sass:
