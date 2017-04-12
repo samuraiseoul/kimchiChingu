@@ -1,0 +1,6 @@
+.sass-cache/
+.jekyll-metadata
+_config.yml
+css/main.css
+_sass/bower_components/
+_sass/npm_modules/
