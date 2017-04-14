@@ -1,0 +1,3 @@
+[submodule "JekyllDeploy"]
+	path = JekyllDeploy
+	url = git@github.com:samuraiseoul/JekyllDeploy.git
