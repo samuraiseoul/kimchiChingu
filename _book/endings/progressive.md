@@ -6,7 +6,7 @@ description: >
   Currently doing verb/present progressive verb ending in Korean."
 japan-title: 'ている'
 prevLink: "book/endings/favor/"
-nextLink: "book/endings/"
+nextLink: "book/endings/try"
 vocab: {
 		동사: 'verb',
 		동사 변화: 'verb conjugations'
