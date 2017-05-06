@@ -32,7 +32,7 @@
 			}
 			$('#japanify').change(function(){
 				localStorage.japanify = $(this).prop('checked');
-				// var japanify = $('#japanify').prop('checked');
+				var japanify = $('#japanify').prop('checked');
 				japanify ? $('.japanify').show() : $('.japanify').hide();
 				japanify ? $('.no-japanify').hide() : $('.no-japanify').show();
 			}).trigger('change');
