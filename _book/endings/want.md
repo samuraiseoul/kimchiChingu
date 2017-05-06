@@ -6,7 +6,7 @@ description: >
   Verb want to do ending in Korean."
 japan-title: 'たい'
 prevLink: "book/endings/because"
-nextLink: "book/endings/"
+nextLink: "book/endings/dont"
 vocab: {
 		동사: 'verb',
 		동사 변화: 'verb conjugations'
