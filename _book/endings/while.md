@@ -6,7 +6,7 @@ description: >
   While doing something verb ending in Korean."
 japan-title: 'ながら'
 prevLink: "book/endings/conditional"
-nextLink: "book/endings/"
+nextLink: "book/endings/but"
 vocab: {
 		동사: 'verb',
 		동사 변화: 'verb conjugations'
