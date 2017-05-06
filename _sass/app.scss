@@ -2,7 +2,6 @@
 
 @include foundation-title-bar;
 @include foundation-tooltip;
-@include foundation-top-bar;
 @include foundation-global-styles;
 @include foundation-grid;
 @include foundation-typography;
@@ -10,6 +9,38 @@
 @include foundation-menu-icon;
 @include foundation-callout;
 @include foundation-table;
+@include foundation-switch;
+
+header{
+	width: 100%;
+	#header-top{
+		height: 125px;
+		#logo{
+			position: relative;
+			img{
+				margin: auto;
+				display: block;
+				height: 125px;
+			}
+		}
+		#github{
+			position: absolute;
+			float: right;
+			right: 0;
+			top: 0;
+			img{
+				height: 125px;
+			}
+		}
+	}
+	nav{
+		width: 100%;
+		background-color: #69932D;
+		a{
+			color: white;
+		}
+	}
+}
 
 main.row{
 	max-width: 90%;
@@ -19,7 +50,35 @@ main.row{
 }
 footer{
 	width:100%;
-	border-top: solid 3px
+	color: white;
+	background-color: #444444;
+	nav{
+		width: 100%;
+		.menu{
+			li{
+				a{
+					color: white;
+				}
+			}
+		}
+	}
+	.switch{
+		padding-top: .7em;
+		text-align: right;
+		padding-right: 3em;
+		label{
+			margin-top: -.2em;
+			float: right;
+			margin-left: 1em;
+			background-color: #B1B1B1 !important;
+			border-radius: 1em;
+			color: white;
+			&:after{
+			border-radius: 1em;
+			color: white;
+			}
+		}
+	}
 }
 #vocab{
 	table{
