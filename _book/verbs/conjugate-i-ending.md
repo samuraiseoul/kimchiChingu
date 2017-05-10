@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 7
 title:  "Stems Ending in ㅣ"
 categories: verbs conjugation adjective
 description: >

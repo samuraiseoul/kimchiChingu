@@ -24,9 +24,8 @@ quiz: '[{
       }]'
 ---
 
-To use the conditional form of a verb, change the verb into it's [stem form]({{site.baseurl}}/book/verbs/stem/)
-and add '면' or '으면'. If the verb stem ends in a consonant add '으면'. If the verb
-stem ends in a vowel add '면'.
+To use the conditional form of a verb, change the verb into it's [conjunctive form]({{site.baseurl}}/book/verbs/conjunctive/)
+and add '면'.
 
 ### Examples:
 

@@ -1,5 +1,5 @@
 ---
-order: 9
+order: 10
 title:  "Stems Ending in ㅂ"
 categories: verbs conjugation adjective
 description: >

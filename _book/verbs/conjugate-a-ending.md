@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 5
 title:  "Stems Ending in ㅏ"
 categories: verbs conjugation adjectives
 description: >

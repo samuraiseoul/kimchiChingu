@@ -6,7 +6,7 @@ japan-title: "連用形"
 description: >
   Introduction to Korean verb and adjective stems.
 prevLink: "book/verbs/basics/"
-nextLink: "book/verbs/conjugate/"
+nextLink: "book/verbs/conjunctive/"
 vocab: {
 		동사: 'verb',
 		동사 변화: 'verb conjugations'

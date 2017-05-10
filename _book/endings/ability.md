@@ -24,9 +24,8 @@ quiz: '[{
       }]'
 ---
 
-To use the ability form of a verb, change the verb into it's [stem form]({{site.baseurl}}/book/verbs/stem/)
-and add 'ㄹ/을 수 있다'. If the verb stem ends in a vowel, add ㄹ 수 있다, otherwise,
- if it ends in a consonant, add 을 수 있다.
+To use the ability form of a verb, change the verb into it's [conjunctive form]({{site.baseurl}}/book/verbs/conjunctive/)
+and add 'ㄹ 수 있다'.
 
 ### Examples:
 

@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 11
 title:  "Stems Ending in 르"
 categories: verbs conjugation adjective
 description: >

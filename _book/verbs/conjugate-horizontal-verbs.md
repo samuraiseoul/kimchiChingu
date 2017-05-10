@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 8
 title:  "Stems Ending in ㅜ and ㅗ"
 categories: verbs conjugation adjectives
 description: >

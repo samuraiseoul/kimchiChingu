@@ -1,10 +1,10 @@
 ---
-order: 3
+order: 4
 title:  "Verb and Adjective Conjugates"
 categories: verbs conjugation adjectives
 description: >
   Introduction to Korean verb and adjective conjugations.
-prevLink: "book/verbs/stem/"
+prevLink: "book/verbs/conjunctive/"
 nextLink: "book/verbs/conjugate-a-ending/"
 vocab: {
 		동사: 'verb',

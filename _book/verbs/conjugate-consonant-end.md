@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 6
 title:  "Stems Ending in Consonants"
 categories: verbs conjugation consonants adjectives
 description: >

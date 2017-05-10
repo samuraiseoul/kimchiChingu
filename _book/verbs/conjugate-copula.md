@@ -1,5 +1,5 @@
 ---
-order: 12
+order: 13
 title:  "The copula, 이다"
 categories: verbs conjugation adjectives copula
 description: >
