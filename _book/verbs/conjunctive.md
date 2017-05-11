@@ -25,9 +25,12 @@ quiz: '[{
 The conjunctive form, like the [stem form]({{site.baseurl}}/book/verbs/stem/) of
 a verb can't live on it's on and requires one of the verb endings listed below to
 function. It however is an easy form to conjugate. First conjugate the verb to the
-[stem form]({{site.baseurl}}/book/verbs/stem/), if it ends in a vowel or 'ㄹ' it is
-already in the conjunctive form, otherwise just add '으'to put it in the conjunctive
-form.
+[stem form]({{site.baseurl}}/book/verbs/stem/). If it ends in a vowel or 'ㄹ' it is
+already in the conjunctive form, if the stem ends in a 'ㅂ', remove the ㅂ and add 우
+otherwise just add '으'to put it in its conjunctive form.
+
+A small note about verbs ending in 'ㄹ', if the verb ending specified adding a 'ㄹ'
+don't add one for conjunctives that end in 'ㄹ'.
 
 ### Examples:
 
