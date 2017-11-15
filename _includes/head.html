@@ -12,32 +12,13 @@
 
 	  ga('create', 'UA-93709201-1', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
+
 	<script src="{{ "/assets/jquery.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/what-input.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/foundation.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/quizlyQuestion.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/template.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/quizly.js" | prepend: site.baseurl }}"></script>
 	<script>
-		$(document).ready(function(){
-			{% if page.quiz %}
-				new Quizly($('#quiz')[0], {{page.quiz}});
-			{% endif %}
-
-			if(localStorage.japanify){
-				var toggle = localStorage.japanify == 'true';
-				$('#japanify').prop('checked', toggle ? 'checked' : '');
-			}
-			$('#japanify').change(function(){
-				localStorage.japanify = $(this).prop('checked');
-				var japanify = $('#japanify').prop('checked');
-				japanify ? $('.japanify').show() : $('.japanify').hide();
-				japanify ? $('.no-japanify').hide() : $('.no-japanify').show();
-			}).trigger('change');
-			$(document).foundation();
-		});
+		$(document).ready(function(){$(document).foundation();});
 	</script>
 
 	<link rel="stylesheet" href="/css/main.css">

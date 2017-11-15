@@ -23,15 +23,6 @@ header{
 				height: 125px;
 			}
 		}
-		#github{
-			position: absolute;
-			float: right;
-			right: 0;
-			top: 0;
-			img{
-				height: 125px;
-			}
-		}
 	}
 	nav{
 		width: 100%;
@@ -41,13 +32,15 @@ header{
 		}
 	}
 }
-
-main.row{
-	max-width: 90%;
-}
-.maxRow{
-	max-width: 100%;
-}
+ body{
+	 > main {
+		 padding: 1em;
+	 }
+		 .youtube{
+  	 		width: 100%;
+				height: 322px;
+ 	 }
+ }
 footer{
 	width:100%;
 	color: white;
@@ -78,16 +71,5 @@ footer{
 			color: white;
 			}
 		}
-	}
-}
-#vocab{
-	table{
-		width: 50%;
-	}
-}
-#booknav{
-	.next{
-		float: right;
-		text-align: right;
 	}
 }

@@ -5,44 +5,7 @@ layout: default
 <div class="callout">
   <h2>{{ page.title }}{% if page.japan-title %}<span class="japanify"> | {{page.japan-title}}</span>{% endif %}</h2>
   {{ content }}
-  {% if page.quiz %}
-  <h3>End of section quiz:</h3>
-  <div id="quiz">
-  </div>
-  {% endif %}
-  <div id="vocab">
-    {% if page.vocab %}
-    <h3>Vocabulary used in this section:</h3>
-    <table class="hover">
-      <thead>
-        <tr>
-          <th>Korean</td>
-          <th>English</td>
-        </tr>
-      </thead>
-      <tbody>
-      {% for vocabulary in page.vocab %}
-        <tr>
-          <td>{{vocabulary[0]}}</td>
-          <td>{{vocabulary[1]}}</td>
-        </tr>
-      {% endfor %}
-      </tbody>
-    </table>
-    {% endif %}
-  </div>
-  <div class="row" id="booknav">
-    <div class="columns small-2">
-      {% if page.prevLink %}
-      <a class="prev" href="{{site.baseurl}}/{{page.prevLink}}">Previous</a>
-      {% endif %}
-    </div>
-    <div class="columns small-offset-8 small-2">
-      {% if page.nextLink %}
-      <a class="next" href="{{site.baseurl}}/{{page.nextLink}}">Next</a>
-      {% endif %}
-    </div>
-  </div>
+  <hr>
   <div id="disqus_thread"></div>
   <script>
   /**
