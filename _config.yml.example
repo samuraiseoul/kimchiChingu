@@ -23,7 +23,7 @@ description: >
 baseurl: "http://www.kimchichingu.com"
 twitter_username: jekyllrb
 github_username:  samuraiseoul
-permalink: pretty
+permalink: none
 keywords: [korean, book, textbook, japanese, grammar]
 
 # Build settings
@@ -32,12 +32,3 @@ sass:
 include: ['_pages', '_assets']
 markdown: kramdown
 error_mode: strict
-collections:
-  book:
-    output: true
-defaults:
-  - scope:
-      path: ""
-      type: book
-    values:
-      layout: post
