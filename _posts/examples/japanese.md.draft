@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "<song name> - <artist>"
+date:   YYYY-mm-dd
+categories: japanese
+---
+
+<div class='row'>
+  <div class='small-12 large-6 large-centered columns'>
+    <iframe class="youtube" src="https://www.youtube.com/embed/<youtube_id>" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class='row'>
+  <div class='small-10 small-offset-1 large-4 large-offset-1 columns'>
+    <h4>日本語の歌詞</h4>
+    <japanese lyrics>
+  </div>
+
+  <div class='small-10 small-offset-1 large-4 large-offset-2 columns'>
+    <h4>English Lyrics</h4>
+    <english translation>
+  </div>
+</div>
