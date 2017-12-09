@@ -4,7 +4,57 @@ layout: default
 
 <div class="post">
   <h2>{{ page.title }}</h2>
-  {{ content }}
+
+  <div class='row'>
+    <div class='small-12 large-6 large-centered columns'>
+      <iframe class="youtube" src="{{page.youtube}}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <p>{{ content }}</p>
+
+  <div class='row'>
+    <div class='small-10 small-offset-1 large-5 large-offset-0 end columns'>
+      <h4>{{ page.language }}</h4>
+      {% for verse in page.lyrics %}
+        {% for line in verse %}
+          <p>{{line.foreign}}</p>
+        {% endfor %}
+      {% endfor %}
+    </div>
+
+    <div class='small-10 small-offset-1 large-5 large-offset-2 end columns'>
+      <h4>English</h4>
+      {% for verse in page.lyrics %}
+        {% for line in verse %}
+          <p>{{line.english}}</p>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='small-10 small-centered large-5 large-centered text-center columns'>
+      <h4>New Words</h4>
+      <table>
+        <thead>
+          <tr>
+            <th class="text-center">{{ page.language }}</th>
+            <th class="text-center">English</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for word in page.words %}
+            <tr>
+              <td><ruby>{{word.foreign}}<rt>{{word.ruby}}</rt></ruby></td>
+              <td>{{word.english}}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
   <div id="disqus_thread"></div>
   <script>
   /**
