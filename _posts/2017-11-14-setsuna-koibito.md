@@ -9,36 +9,62 @@ lyrics:
   -
     -
       foreign: 夕暮れの街切り取ってピンクの呪文かける魔女たちの季節
-      english: aasdasdasdas
+      english: The season of witches who take the twilight town
     -
       foreign: 緩やかな放物線描き空落下するパラシュートライダー
-      english: aasdasdasdas
+      english: The parachute rider who falls from the sky in a loose parabola
     -
       foreign: はじめっから汚れちまってる眠ることのない魂
-      english: aasdasdasdas
+      english: A sleeping soul that was dirty from the beginning
     -
       foreign: また今日もいつものところで待ってる　セツナの恋人
-      english: aasdasdasdas
+      english: I'll wait in the same place today, my momentary lover
   -
     -
       foreign: きみはまるで静かな炎みたい
-      english: aasdasdasdas
+      english: You, who are like a quiet inferno
     -
       foreign: ぼくの総てを燃やし尽くそうとする
-      english: aasdasdasdas
+      english: Try to burn me away completely
     -
       foreign: 子供の頃に作ったしゃぼん玉に乗ってふたりでこの空を飛ぼう
-      english: aasdasdasdas
+      english: Let's ride to the sky on the bubbles we used to blow as children
+  -
+    -
+      foreign: 夕暮れの街切り取ってピンクの呪文かける魔女たちの季節
+      english: The season of witches who take the twilight town
+    -
+      foreign: 緩やかな放物線描き空落下するパラシュートライダー
+      english: The parachute rider who falls from the sky in a loose parabola
+    -
+      foreign: はじめっから汚れちまってる眠ることのない魂
+      english: A sleeping soul that was dirty from the beginning
+    -
+      foreign: また今日もいつものところで待ってる　セツナの恋人
+      english: I'll wait in the same place today, my momentary lover  
   -
     -
       foreign: きみはまるで静かなメロディみたい
-      english: aasdasdasdas
+      english: You, who are like a quiet melody
     -
       foreign: なつかしい景色へぼくを連れて行く
-      english: aasdasdasdas
+      english: You take me away to a scene from my childhood
     -
       foreign: 子供の頃に呼んだ冒険物語り真似てふたりでこの夜を行こう
-      english: aasdasdasdas
+      english: Let's imitate the adventure stories we heard as kids and go into the night
+  -
+    -
+      foreign: 夕暮れの街切り取ってピンクの呪文かける魔女たちの季節
+      english: The season of witches who take the twilight town
+    -
+      foreign: 緩やかな放物線描き空落下するパラシュートライダー
+      english: The parachute rider who falls from the sky in a loose parabola
+    -
+      foreign: はじめっから汚れちまってる眠ることのない魂
+      english: A sleeping soul that was dirty from the beginning
+    -
+      foreign: また今日もいつものところで待ってる　セツナの恋人
+      english: I'll wait in the same place today, my momentary lover
 words:
   -
     foreign: '夕暮れ'

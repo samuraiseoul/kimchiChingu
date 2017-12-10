@@ -14,21 +14,25 @@ layout: default
   <p>{{ content }}</p>
 
   <div class='row'>
-    <div class='small-10 small-offset-1 large-5 large-offset-0 end columns'>
+    <div class='small-10 small-offset-1 large-6 large-offset-0 end columns'>
       <h4>{{ page.language }}</h4>
       {% for verse in page.lyrics %}
+      <div class='verse'>
         {% for line in verse %}
           <p>{{line.foreign}}</p>
         {% endfor %}
+      </div>
       {% endfor %}
     </div>
 
-    <div class='small-10 small-offset-1 large-5 large-offset-2 end columns'>
+    <div class='small-10 small-offset-1 large-6 large-offset-0 end columns'>
       <h4>English</h4>
       {% for verse in page.lyrics %}
+      <div class='verse'>
         {% for line in verse %}
           <p>{{line.english}}</p>
         {% endfor %}
+      </div>
       {% endfor %}
     </div>
   </div>
