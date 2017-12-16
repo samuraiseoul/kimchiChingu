@@ -12,7 +12,7 @@ lyrics:
       english: The season of witches who take the twilight town
     -
       foreign: 緩やかな放物線描き空落下するパラシュートライダー
-      english: The parachute rider who falls from the sky in a loose parabola
+      english: A parachuter who draws a loose parabola in the sky as he falls
     -
       foreign: はじめっから汚れちまってる眠ることのない魂
       english: A sleeping soul that was dirty from the beginning
@@ -109,7 +109,7 @@ words:
   -
     foreign: '冒険'
     ruby: 'ぼうけん'
-    english: 'risk, adventure, adventure'
+    english: 'risk, adventure'
   -
     foreign: '物語る'
     ruby: 'ものがたる'
@@ -119,4 +119,3 @@ words:
     ruby: 'まねる'
     english: 'to mimic, imitate'
 ---
-My thoughts about setsuna no koibito
